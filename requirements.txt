@@ -4,6 +4,7 @@ scikit-learn
 scipy
 pandas
 numpy
+
 fuzzywuzzy
 python-Levenshtein
 gunicorn
