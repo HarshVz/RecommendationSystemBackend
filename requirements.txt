@@ -1,0 +1,8 @@
+Flask
+Flask-Cors
+scikit-learn
+scipy
+pandas
+numpy
+fuzzywuzzy
+python-Levenshtein
