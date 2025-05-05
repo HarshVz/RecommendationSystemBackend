@@ -7,3 +7,5 @@ numpy
 fuzzywuzzy
 python-Levenshtein
 gunicorn
+werkzeug
+joblib

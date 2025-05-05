@@ -1,6 +1,10 @@
 services:
   - type: web
-    name: my-app
+    name: music-analyzer
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: ""
     startCommand: gunicorn app:app
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    autoDeploy: true
